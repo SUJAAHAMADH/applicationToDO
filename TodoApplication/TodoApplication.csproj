@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\src\assets\vendor\%40fortawesome\fontawesome-free\less\" />
+    <Folder Include="wwwroot\src\assets\vendor\%40fortawesome\fontawesome-free\scss\" />
+    <Folder Include="wwwroot\src\assets\vendor\anchor-js\docs\" />
+    <Folder Include="wwwroot\src\assets\vendor\anchor-js\test\" />
+    <Folder Include="wwwroot\src\assets\vendor\chart.js\dist\docs\" />
+    <Folder Include="wwwroot\src\assets\vendor\holderjs\src\" />
+    <Folder Include="wwwroot\src\assets\vendor\holderjs\test\" />
+  </ItemGroup>
+
+</Project>
